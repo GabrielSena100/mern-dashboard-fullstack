@@ -23,7 +23,7 @@ const Transactions = () => {
     sort: JSON.stringify(sort),
     search
   });
-  console.log("🚀 ~ file: index.jsx:24 ~ Transactions ~ data", data)
+  //console.log("🚀 ~ file: index.jsx:24 ~ Transactions ~ data", data)
 
   const columns = [
     {

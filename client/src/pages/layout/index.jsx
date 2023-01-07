@@ -12,10 +12,10 @@ const Layout = () => {
   const [isSideBarOpen, setIsSideBarOpen] = useState(true);
 
   const userId = useSelector((state) => state.global.userId);
-  console.log(userId);
+  //console.log(userId);
   const { data } = useGetUserQuery(userId);
-  console.log("🚀 ~ file: index.jsx:17 ~ Layout ~ data", data);
-  console.log(data);
+  //console.log("🚀 ~ file: index.jsx:17 ~ Layout ~ data", data);
+  //console.log(data);
   return (
     <Box display={isNonMobile ? "flex" : "block" } width="100%" height="100%">
         <SideBar 

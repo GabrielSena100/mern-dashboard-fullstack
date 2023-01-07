@@ -3,7 +3,7 @@ import OverallStat from "../models/OverallStat.js"
 import Transaction from "../models/Transaction.js"
 
 export const getUser = async (req, res) => {
-    console.log("get User");
+    //console.log("get User");
     try {
         const { id } = req.params;
         const user = await User.findById(id);
@@ -16,7 +16,7 @@ export const getUser = async (req, res) => {
 }
 
 export const getDashboardStats = async (req, res) => {
-    console.log("get User");
+    //console.log("get User");
     try {
         //hardcoded values
         const currentMonth = "November";

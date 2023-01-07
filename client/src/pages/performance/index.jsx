@@ -11,7 +11,7 @@ const Performance = () => {
   const theme = useTheme();
   const userId = useSelector((state) => state.global.userId);
   const {data, isLoading} = useGetUserPerformanceQuery(userId);
-  console.log("🚀 ~ file: index.jsx:14 ~ Performance ~ data", data)
+  //console.log("🚀 ~ file: index.jsx:14 ~ Performance ~ data", data)
 
   const columns = [
     {
